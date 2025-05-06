@@ -1,0 +1,41 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+header{
+    width: 1000px;
+    margin: auto;
+}
+
+main {
+    display: flex;
+    width: 1000px;
+    height: 400px;
+    margin: auto;
+}
+
+#left,
+#right {
+    width: 200px;
+    height: 400px;
+}
+
+#root {
+    width: 600px;
+    padding: 15px;
+    display:flex;
+    flex-direction:column;
+}
+
+.square{
+    border: 1px solid black;
+    height: 100%;
+}
+.square ul{
+    padding: 25px;
+}
+
+#root{
+    border: 1px solid black;
+}
